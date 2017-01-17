@@ -2,7 +2,7 @@
  * Created by krock on 1/11/17.
  */
 import React from 'react';
-import constants from './constants.js';
+
 import TimeDetail from './TimeDetail.js';
 
 class TimeSelect extends React.Component {

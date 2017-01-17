@@ -2,7 +2,7 @@
  * Created by krock on 1/13/17.
  */
 import React from 'react';
-import constants from './constants.js';
+import {HOUR,MINITE} from './constants.js';
 
 class TimeDetail extends React.Component{
     constructor(props){
@@ -18,7 +18,7 @@ class TimeDetail extends React.Component{
     }
     render(){
 
-        let times = constants[this.props.timeType];
+        let times = this.props.timeType==='hour'?HOUR:MINITE;
         let rows=[];
         for(let i=0;i<times.length;i++){
             let tds=[];
