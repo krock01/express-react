@@ -35,6 +35,16 @@ express-react
     -package.json
     -readme.md
 ```
+## 开始
+```
+npm install
+
+npm start
+
+访问:localhost:3000
+```
+
+
 ## 目的
 
 理解基本的react的使用
